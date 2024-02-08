@@ -42,3 +42,9 @@ C:\ESTUDO\DOTNET\Filmes\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Pomelo.EntityFramew
 C:\ESTUDO\DOTNET\Filmes\FilmesAPI\FilmesAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\ESTUDO\DOTNET\Filmes\FilmesAPI\FilmesAPI\bin\Debug\net6.0\AutoMapper.dll
 C:\ESTUDO\DOTNET\Filmes\FilmesAPI\FilmesAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\ESTUDO\DOTNET\Filmes\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\ESTUDO\DOTNET\Filmes\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\ESTUDO\DOTNET\Filmes\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\ESTUDO\DOTNET\Filmes\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\ESTUDO\DOTNET\Filmes\FilmesAPI\FilmesAPI\bin\Debug\net6.0\FilmesAPI.xml
+C:\ESTUDO\DOTNET\Filmes\FilmesAPI\FilmesAPI\obj\Debug\net6.0\FilmesAPI.xml
