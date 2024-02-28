@@ -6,7 +6,7 @@ namespace FilmesAPI.Dtos
     public class CreateFilmeDto
     {
         [Required(ErrorMessage = "Necessário preencher o titulo do filme")]
-        [StringLength(50, ErrorMessage = "O titulo nao pode ultrapassar 100 caracteres")]
+        [StringLength(50, ErrorMessage = "O titulo nao pode ultrapassar 50 caracteres")]
         [NotNull]
         public string Titulo { get; set; }
 
@@ -21,7 +21,7 @@ namespace FilmesAPI.Dtos
         public int Duracao { get; set; }
 
         [Required(ErrorMessage = "Necessário preencher o diretor do filme")]
-        [StringLength(50, ErrorMessage = "O nome do diretor nao pode ultrapassar 100 caracteres")]
+        [StringLength(50, ErrorMessage = "O nome do diretor nao pode ultrapassar 50 caracteres")]
         [NotNull]
         public string Diretor { get; set; }
     }
