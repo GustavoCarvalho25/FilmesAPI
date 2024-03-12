@@ -10,5 +10,6 @@ namespace FilmesAPI.Dtos
         [StringLength(50, ErrorMessage = "O nome nao pode ultrapassar 50 caracteres")]
         [NotNull]
         public string Nome { get; set; }
+        public int EnderecoId { get; set; }
     }
 }
