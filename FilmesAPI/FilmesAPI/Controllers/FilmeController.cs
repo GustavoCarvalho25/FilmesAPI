@@ -46,10 +46,15 @@ namespace FilmesAPI.Controllers
         public IEnumerable<ReadFilmeDto> RetornaFilmes
         (
             [FromQuery] int skip = 0,
-            [FromQuery] int take = 30
+            [FromQuery] int take = 30,
+            [FromQuery] string? nomeCinema = null
         )
         {
-            return _mapper.Map<List<ReadFilmeDto>>(_context.Filmes.Skip(skip).Take(take));
+            return _mapper.Map<List<ReadFilmeDto>>(
+                _context.Filmes.Skip(skip).Take(take)
+                .Where(filme => filme.Sessoes
+                .Any(sessao => sessao.Cinema.Nome == nomeCinema))
+                .ToList());
         }
 
         [HttpGet("{Id}")]

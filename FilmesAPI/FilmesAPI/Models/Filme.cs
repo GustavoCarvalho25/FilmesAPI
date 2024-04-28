@@ -30,5 +30,6 @@ namespace FilmesAPI.Models
         [MaxLength(50)]
         [NotNull]
         public string Diretor { get; set; }
+        public virtual ICollection<Sessao> Sessoes { get; set; }
     }
 }
